@@ -1,0 +1,17 @@
+.box-one {
+    background: aqua;
+    display: inline-block;
+    width: 450px;
+    height: 294px;
+    margin-left: 12%;
+}
+
+.box-two {
+    background: aqua;
+    display: inline-block;
+        
+}
+.box-tree {
+    background: aqua;
+    display: inline-block;
+}
