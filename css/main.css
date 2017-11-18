@@ -1,17 +1,80 @@
-.box-one {
-    background: aqua;
-    display: inline-block;
-    width: 450px;
-    height: 294px;
-    margin-left: 12%;
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
+body{
+    width: 100%;
+    
+    background: grey;
+}
+
+h1 {
+    text-align: center;
+    background: #166dca;
+    color: white;
+}
+section{
+    overflow: auto;
+    margin-top: 1%;
+    height: 307px;
+}
+
+
+
+.box-one {
+    background: white;
+    width: 450px;
+    height: 294px;
+    float: left;
+    margin: 0px 0px 0px 234px;
+}
+
+
+.box-one p:last-child{
+    margin-top: 5%;
+    color: blue;
+}
+
+/*Añandiendo estilo al cuadro textArea */
 .box-two {
-    background: aqua;
-    display: inline-block;
+    background: white;
+    float: right;
+    margin-right: 15%;
+    width: 450px;
+    height: 294px;
         
 }
-.box-tree {
-    background: aqua;
-    display: inline-block;
+
+
+textarea {
+    border: none;
+    height: 150px;
+    width: 439px;
+    outline: none;
+    font-size: 30px;
+    
+}
+
+hr{
+    color: grey;
+   }
+
+button {
+    background: blue;
+    color: white;
+    width: 101px;
+    height: 40px;
+    border-radius: 12%;
+    margin: 7% 0% 0% 8%;
+
+}
+
+/*Añandiendo estilo al nuevo parrafo*/
+
+p {
+    margin: 5px;
+    background: white;
 }
