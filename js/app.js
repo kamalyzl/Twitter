@@ -1,26 +1,18 @@
 
 window.addEventListener('load', function () {
+    //VARIABLES GLOBALES
     var txtArea = document.getElementById('textArea');
     var button = document.getElementById('buton');
     var newSection = document.getElementById('box-tree');
-
-    //creando el contador
-    var count = document.createElement('p');
-    var dadCount = document.getElementById('box-twojs');
-    count.textContent = 140;
-    dadCount.appendChild(count);
-
-
-
+    var lengthTxtArea = txtArea.value.length;
 
     //Agregar los links 
 
     button.addEventListener('click', function (event) {
-        var countParagraph = document.getElementById('textArea').value;
-        var lengPara = countParagraph.length;
-        if (lengPara > 0) {
+        if (lengthTxtArea > 0) {
             addLinks(txtArea.value)
         } else {
+
             event.preventDefault();
         }
     })
@@ -40,8 +32,18 @@ window.addEventListener('load', function () {
 
     }
 
-    
+    txtArea.addEventListener('keydown', function ( ) {
+        var count=document.getElementById('count-js');
+        var longitud = 140;
+        var rest='';
+        var lonTxt= document.getElementById('textArea').value.length;
+        rest= longitud-lonTxt;
 
-
+        if (rest<120){
+            count.style.color='red';
+        }
+        count.value
+        =rest;
+    })
 
 })
