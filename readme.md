@@ -12,7 +12,7 @@
 El reto consiste en replicar el sitio de **Twitter**, este será el resultado
 a lograr:
 
-![Freelancer Website](assets/image/twitter.gif)
+![Twitter Website](assets/image/twitter.gif)
 
 
 ### Versión 0.0.1

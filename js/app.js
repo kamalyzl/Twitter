@@ -12,6 +12,7 @@ window.addEventListener('load', function() {
     } else {
       addLinks(txtArea.value);
       txtArea.value = '';
+      txtArea.focus();
       document.getElementById('count-js').value = 0;
       document.getElementById('count-js').style.color = 'black';
     }
