@@ -9,10 +9,7 @@ body{
     width: 100%;    
     background-image: url('http://graffica.info/wp-content/uploads/2017/06/StockSnap-banco-imagenes.jpg'); 
     background-size:cover;
-   /* background-repeat: no-repeat;*/
-  
-
-}
+   /* background-repeat: no-repeat;*/}
 h1 {
     text-align: center;
     background: #166dca;
@@ -29,15 +26,13 @@ section{
     width: 300px;
     height: 200px;
     position: absolute;
-    margin-left: 25%;
-    
+    margin-left: 25%;    
 }
+
 .box-one p:last-child{
     margin-top: 5%;
     color: blue;
 }
-
-
 .box-two {
     background: white;
     position: absolute;
@@ -45,7 +40,6 @@ section{
     height: 200px;
     right: 0;
     margin-right: 25%;
-        
 }
 
 /*Añandiendo estilo al cuadro textArea */
@@ -57,7 +51,6 @@ textarea {
     overflow:hidden;
     margin:2px auto;
     display:block;
-    
 }
 
 hr{
@@ -83,7 +76,6 @@ p {
 }
 /*Anadiendo estilo al contador regresivo*/
 .count{
-    
     background-color:transparent;
     color: black;
     border: none;
